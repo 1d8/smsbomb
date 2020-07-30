@@ -14,3 +14,8 @@
 Output:
 
 ![](/imgs/img2.png)
+
+
+# Downsides
+
+Messages are all sent from 1 number. So by blocking this 1 number you block all spam.
