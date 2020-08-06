@@ -6,6 +6,7 @@
 
 1. Python 3
 2. Pip
+3. TQDM Python module (`pip3 install tqdm`)
 
 # Downsides
 
