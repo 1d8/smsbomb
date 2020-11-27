@@ -1,17 +1,21 @@
-# Usage:
+# SMS boomer
 
-`python3 smsbomb.py`
+### What are its properties?
+- send sms for target
+- Beautiful frontend
+- complete help list
+- Send SMS as desired
 
-# Requirements:
+### installation:
+1. write in your comand: `git clone https://github.com/Dark-Bot912/smsbomb.git`
+2. Again: `cd smsbomb`
+3. And to again: `python smsbomb.py`
+4. **Enjoy!**
 
-1. Python 3
-2. Pip
-3. TQDM Python module (`pip3 install tqdm`)
-
-# Downsides
-
-Messages are all sent from 1 number. So by blocking this 1 number you block all spam.
-
+### Question:
+- Will my identity be kept secret?
+*yes!*
+<hr>
 # Example Usage:
 
 ![](/imgs/img1.png)
